@@ -45,6 +45,6 @@ public class DetailMovieActivity extends AppCompatActivity {
         txtMovieTitle.setText(String.format("%s (%s)", movieTitle, releaseDateYear[2]));
         txtMovieScore.setText(String.format("%s User Score", movieScore));
         txtMovieOverview.setText(movieOverview);
-        txtMovieReleaseDate.setText("# " + movieReleaseDate);
+        txtMovieReleaseDate.setText(String.format("# %s", movieReleaseDate));
     }
 }
