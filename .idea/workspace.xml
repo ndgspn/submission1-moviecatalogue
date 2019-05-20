@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c45e6854-e15c-468b-a9bc-c849ee672d73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/DetailMovieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/DetailMovieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +40,11 @@
           <provider editor-type-id="android-manifest" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/DetailMovieActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+            <state>
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +77,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+            <state relative-caret-position="285">
+              <caret line="82" column="64" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +146,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/DetailMovieActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -300,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558359696969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change releaseDateYear to String.format">
+      <created>1558359918569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558359918569</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change txtMovieReleaseDate to String.format">
+      <created>1558359999878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558359999878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -335,7 +349,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change txtMovieSocre to String.format" />
-    <option name="LAST_COMMIT_MESSAGE" value="change txtMovieSocre to String.format" />
+    <MESSAGE value="change releaseDateYear to String.format" />
+    <MESSAGE value="change txtMovieReleaseDate to String.format" />
+    <option name="LAST_COMMIT_MESSAGE" value="change txtMovieReleaseDate to String.format" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/Utils.java" />
@@ -438,16 +454,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -473,8 +479,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/DetailMovieActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/submission/picodiploma/moviecatalogue/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <caret line="82" column="64" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

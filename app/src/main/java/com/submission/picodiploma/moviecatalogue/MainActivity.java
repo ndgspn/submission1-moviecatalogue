@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             movie.setPhotoPoster(movieImagePoster.getResourceId(i, -1));
             movie.setPhoto(movieImage.getResourceId(i, -1));
             movie.setTitle(movieTitle[i]);
-            movie.setScore("★ " + movieScore[i]);
+            movie.setScore(String.format("★ %s ", movieScore[i]));
             movie.setReleaseDate(movieReleaseDate[i]);
             movie.setOverview(movieOverview[i]);
             movies.add(movie);
