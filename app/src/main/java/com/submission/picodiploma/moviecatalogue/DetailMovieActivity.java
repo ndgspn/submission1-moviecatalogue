@@ -43,7 +43,7 @@ public class DetailMovieActivity extends AppCompatActivity {
         imgMoviePoster.setImageResource(moviePhotoPoster);
         imgMovie.setImageResource(moviePhoto);
         txtMovieTitle.setText(movieTitle + " (" + releaseDateYear[2] + ")");
-        txtMovieScore.setText(movieScore + " User Score");
+        txtMovieScore.setText(String.format("%s User Score", movieScore));
         txtMovieOverview.setText(movieOverview);
         txtMovieReleaseDate.setText("# " + movieReleaseDate);
     }
